@@ -2571,6 +2571,12 @@
 		(uuid "053231e1-7932-4aff-a68c-d9f129a0c9f8")
 	)
 	(junction
+		(at 74.93 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32fcbf65-8919-4a5d-b084-8a13ed96de60")
+	)
+	(junction
 		(at 83.82 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2605,12 +2611,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8c61c3b-6782-4268-9fd5-900268db80db")
-	)
-	(junction
-		(at 78.74 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f13d26a1-be1f-411c-bba4-ecc87131cc78")
 	)
 	(junction
 		(at 76.2 96.52)
@@ -2728,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 114.3) (xy 87.63 114.3)
+			(xy 74.93 114.3) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2828,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 104.14) (xy 78.74 106.68)
+			(xy 74.93 104.14) (xy 74.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3108,13 +3108,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 104.14) (xy 91.44 104.14)
+			(xy 74.93 104.14) (xy 91.44 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce56382f-2f9e-4d25-8ec5-9bcec1779a0c")
+		(uuid "cdd1da72-a173-4d9d-8397-5594adbcc8d1")
 	)
 	(wire
 		(pts
@@ -3168,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 104.14) (xy 78.74 104.14)
+			(xy 64.77 104.14) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3332,7 +3332,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 78.74 110.49 270)
+		(at 74.93 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3340,7 +3340,7 @@
 		(dnp no)
 		(uuid "25411291-d1c6-47f7-b371-c9e89490bee3")
 		(property "Reference" "D2"
-			(at 81.28 109.2199 90)
+			(at 77.47 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3349,7 @@
 			)
 		)
 		(property "Value" "3.6V 1/2mW"
-			(at 73.914 113.538 90)
+			(at 70.104 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3358,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 78.74 110.49 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 110.49 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3376,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 110.49 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
